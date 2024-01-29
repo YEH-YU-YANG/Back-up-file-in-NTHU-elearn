@@ -6,7 +6,7 @@
 
 ## 目標
 
-![](Images\target_files.png)
+![](Images/target_files.png)
 
 下載歷屆繳交過的作業
 
@@ -19,13 +19,13 @@
 ### 第一步 : 確認Google目前版本
 
 #### 右上角的三個圓點 -> 設定 
-![](Images\google_version_1.png)
+![](Images/google_version_1.png)
 
 #### 點集左下角的 "關於 Chrome"
-![](Images\google_version_2.png)
+![](Images/google_version_2.png)
 
 #### 點集左下角的 "關於 Chrome"
-![](Images\google_version_3.png)
+![](Images/google_version_3.png)
 
 上圖顯示的版本為 **121.0.6167.86**。
 代表目前的 **Google** 版本是 **121**。
@@ -52,41 +52,41 @@
 ### 第三步 : 找到登入 elearn 的 cookie
 
 #### 登入 elearn -> 按下 `ctrl + shift + i` -> 刷新頁面
-![](Images\elearn_login_1.png)
+![](Images/elearn_login_1.png)
 
 #### 找到 my 欄位 -> 點擊 cookie -> 找到 MoodleSessionM35 欄位的 value	
-![](Images\elearn_login_2.png)
+![](Images/elearn_login_2.png)
 
-![](Images\elearn_login_3.png)
+![](Images/elearn_login_3.png)
 
 >(1) MoodleSessionM35 欄位的 value 為 a98xxxxxxxx。<br>
 >(2) 不要外流這個 value。
 
 ### 第四步 : 把 cookie 放入 env.json
 
-![](Images\env_1.png)
+![](Images/env_1.png)
 >(1) 記得放在 value 欄位的雙括號 `""` 裡面。 <br>
 >(2) 記得存檔 !!
 
 ### 第五步 : 執行 .exe檔
 
 #### 直接點擊 `main.exe`
-![](Images\main_exe_1.png)
+![](Images/main_exe_1.png)
 
 #### 下載資訊
-![](Images\result_1.png)
+![](Images/result_1.png)
 
 ### 第六步 : 結果
 
 下載完的檔案都在 `assignments` 資料夾裡面
 
-![](Images\result_2.png)
+![](Images/result_2.png)
 
-![](Images\result_3.png)
+![](Images/result_3.png)
 
-![](Images\result_4.png)
+![](Images/result_4.png)
 
-![](Images\result_5.png)
+![](Images/result_5.png)
 
 
 [Mac64_ChromeDriver_v112]: https://github.com/YEH-YU-YANG/Back-up-file-in-NTHU-elearn/releases/download/v1.0-alpha/Mac64_ChromeDriver_v112.zip
