@@ -74,7 +74,7 @@
 ![](Images/main_exe_1.png)
 
 #### 下載資訊
-![](Images/result_1.png)
+<img src="Images/result_1.png" width="70%" />
 
 ### 第六步 : 結果
 
