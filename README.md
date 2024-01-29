@@ -1,8 +1,24 @@
-
+- [Back-up-file-in-NTHU-elearn](#back-up-file-in-nthu-elearn)
+  - [目標](#目標)
+  - [限制](#限制)
+  - [使用教學](#使用教學)
+    - [第一步 : 確認Google版本](#第一步--確認google版本)
+      - [右上角的三個圓點 -\> 設定](#右上角的三個圓點---設定)
+      - [點集左下角的 "關於 Chrome"](#點集左下角的-關於-chrome)
+      - [點集左下角的 "關於 Chrome"](#點集左下角的-關於-chrome-1)
+    - [第二步 : 下載對應版本 Driver](#第二步--下載對應版本-driver)
+      - [Windows](#windows)
+      - [Mac](#mac)
+    - [第三步 : 找到登入 elearn 的 cookie](#第三步--找到登入-elearn-的-cookie)
+      - [登入 elearn -\> 按下 `ctrl + shift + i` -\> 刷新頁面](#登入-elearn---按下-ctrl--shift--i---刷新頁面)
+      - [找到 my 欄位 -\> 點擊 cookie -\> 找到 MoodleSessionM35 欄位的 value](#找到-my-欄位---點擊-cookie---找到-moodlesessionm35-欄位的-value)
+    - [第四步 : 把 cookie 放入 env.json](#第四步--把-cookie-放入-envjson)
+    - [第五步 : 執行.exe檔](#第五步--執行exe檔)
+      - [直接點擊 `main.exe`](#直接點擊-mainexe)
+      - [下載資訊](#下載資訊)
+  - [查看結果](#查看結果)
 
 # Back-up-file-in-NTHU-elearn
-
-
 
 ## 目標
 
@@ -16,7 +32,7 @@
 
 ## 使用教學
 
-### 第一步 : 確認Google目前版本
+### 第一步 : 確認Google版本
 
 #### 右上角的三個圓點 -> 設定 
 ![](Images/google_version_1.png)
@@ -33,6 +49,7 @@
 
 ### 第二步 : 下載對應版本 Driver
 
+#### Windows
 | 版本                    | 文件大小 | 載點     |
 |------------------------|-----------|--------------|
 | Win64_ChromeDriver_v112 | 23.6 MB  | [**Win64_ChromeDriver_v112**][Win64_ChromeDriver_v112] |
@@ -40,6 +57,7 @@
 | Win64_ChromeDriver_v114 | 25.7 MB  | [**Win64_ChromeDriver_v113**][Win64_ChromeDriver_v113] |
 | Win64_ChromeDriver_v121 | 24.9 MB  | [**Win64_ChromeDriver_v121**][Win64_ChromeDriver_v121] |
 
+#### Mac
 | 版本                    | 文件大小  |    載點     |
 |-------------------------|----------|--------------|
 | Mac64_ChromeDriver_v112 | 25.6 MB  | [**Mac64_ChromeDriver_v112**][Mac64_ChromeDriver_v112] |
@@ -68,7 +86,7 @@
 >(1) 記得放在 value 欄位的雙括號 `""` 裡面。 <br>
 >(2) 記得存檔 !!
 
-### 第五步 : 執行 .exe檔
+### 第五步 : 執行.exe檔
 
 #### 直接點擊 `main.exe`
 ![](Images/main_exe_1.png)
@@ -76,7 +94,7 @@
 #### 下載資訊
 <img src="Images/result_1.png" width="70%" />
 
-### 第六步 : 結果
+## 查看結果
 
 下載完的檔案都在 `assignments` 資料夾裡面
 
