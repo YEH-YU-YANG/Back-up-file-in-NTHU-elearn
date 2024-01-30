@@ -125,7 +125,7 @@
 
 ### Windows 已保護您的電腦
 
-![Alt text](./images/warning.png)
+![Alt text](./Images/warning.png)
 
 這很正常，點選其他資訊 -> 仍要執行。
 
