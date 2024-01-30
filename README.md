@@ -5,7 +5,7 @@
     - [第一步 : 確認Google版本](#第一步--確認google版本)
       - [右上角的三個圓點 -\> 設定](#右上角的三個圓點---設定)
       - [點集左下角的 "關於 Chrome"](#點集左下角的-關於-chrome)
-      - [點集左下角的 "關於 Chrome"](#點集左下角的-關於-chrome-1)
+      - [確認版本](#確認版本)
     - [第二步 : 下載對應版本 Driver](#第二步--下載對應版本-driver)
       - [Windows](#windows)
       - [Mac](#mac)
@@ -40,7 +40,7 @@
 #### 點集左下角的 "關於 Chrome"
 ![](Images/google_version_2.png)
 
-#### 點集左下角的 "關於 Chrome"
+#### 確認版本
 ![](Images/google_version_3.png)
 
 上圖顯示的版本為 **121.0.6167.86**。
